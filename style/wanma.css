@@ -1,0 +1,51 @@
+/* CSS Document */
+*{margin: 0;padding: 0;font-family: '微软雅黑','宋体';}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img{border: 0  ;} /*这里要是加上display：block的话，下面的text-align：center就不会让dl中dt的图片居中
+与sina中的那个img{display：block;}比较下*/
+
+/*img{display:block;};*/
+
+body{background-color: snow;}
+
+
+#wrap{width: 1170px;margin: 0 auto;}
+#header{height: 90px;background-color: #F5F5F5;}
+	.logol{float: left;}
+	.logor{float: right;}
+#banner{}
+	.banner_up{background:url(../images/wanma/banner.png) no-repeat;width:1172px;height: 393px; }
+	.banner_btm{margin-top: 20px;text-align: center;overflow: hidden;}
+	.banner_btm dl{float: left;padding: 10px 20px;border-right: 1px dashed #000;}
+	.banner_btm h1{font-size: 20px;}
+	.banner_btm p{color: #666;font-size: 12px;}
+	.banner_btm .bn{border: none ;}
+
+#mainbody{width: 100%;}
+	.body_up{background-color: #EEEEEE;margin-bottom: 15px;}
+	.body_up img{margin: 20px 10px;}
+	.body_center{background-color: #EEEEEE;padding: 10px 0;margin-bottom: 30px;}
+	.body_bottom{background: url(../images/wanma/dfdsdsf.png) no-repeat;width: 1151px;height: 376px;}
+
+#footer{width: 100%;padding: 40px 0 30px;background-color: #fff;}
+	.foot_up{ float:left; margin-right:40px;}
+	.foot_btm span{ color:#00F;}
+
+
+/*1.text-align用来设置元素中的文本对齐方式。例如：如果需要设置图片的对齐方式，余姚设置图片的父元素的text-align属性；
+2.text-align只对文本有效，对元素无效，不能设置元素的对齐方式
+3.表格元素td属于inline-block，可以使用text-align设置td中的文本对齐方式；
+这里的img{display:block;}想要居中的话，加上margin:0 auto;*/
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+/*css document*/
+*{margin: 0;padding: 0;font-size: 14px;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img{border: 0 ;}
+
+/*header*/
+#header{width: 100%;height: 177px;}
+	.nav1-c{height: 34px;background-color: #E4E4E4;}
+	.nav1, .logo{width: 1004px;margin: 0 auto;}
+	.nav1-l>ul>li{float: left;}
+	.nav1 .nav1-l ul li a{display: block;height: 34px;line-height: 34px;font-size: 12px;color: #999;padding: 0 10px;}
+	.nav1 .nav1-c{float: right;}
+	.nav1 .nav1-c a{height: 34px;line-height: 34px;font-size: 12px;color: #999;padding: 0 10px;float: right;}
+	.nav1-r{float: right;margin-top: 8px;}
+	.nav1-fangdajing{float: right;}
+
+	.logo{height: 98px;clear: both;overflow: hidden;}
+	.logo-r{float: right;}
+
+	.nav2{height: 46px;background-color: red;width: 100%;}
+	.nav2-c{width: 1004px;margin: 0 auto;}
+	.nav2-c ul li a{display:block;color: #fff;height: 46px;line-height: 46px;float: left;font-size: 18px;padding: 0 15px;}
+	.nav2 ul li a:hover{background-color: #9C0;}
+
+#banner-c{width: 100%;color: #E4E4E4;}
+	.banner{width: 1000px;height: 328px;margin: 0 auto;}
+
+#mainbody{width: 1004px;height: 466px;margin: 0 auto; padding: 38px 0 82px;border-bottom: 5px solid #FF9C00;}
+	.news-l{width: 268px;height: 466px;float: left;margin-right: 30px;}
+	.news-lup{height: 210px;}
+	#mainbody h1{font-size: 18px;color: #000;padding: 13px 0;border-bottom: 1px solid #999;}
+	.news-l dl, .mews-l ul, .news-cbtm ul{margin-top: 20px;}
+	.news-l dl dd{margin-left: 10px;width: 240px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;color: #333;}
+	.news-lbtm{margin-top: 36px;width: 268px;height: 466px;}
+	.news-lbtm ul li a{float: left;width:208px;height: 25px;line-height: 25px;display: block;color: #333;font-size: 12px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+	.news-lbtm ul li span{float: right;font-size: 12px;color: #666;margin-top: 6px;}
+
+	.news-c{width: 426px;height: 466px;float: left;}
+	.cupup {margin-top: 20px;height: 66px;width: 419px;}
+	.cupup dt,.cupbtm dt{float: left;padding-right: 15px;}
+	.news-cbtm{margin-top: 36px;width: 426px;height: 466px;}
+	.news-cbtm ul li a{float: left;height: 35px;line-height: 35px;display: block;color: #333;font-size: 14px;width: 380px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+	.news-cbtm ul li span{float: right;color: #666;font-size: 12px;margin-top:8px;}
+	.news-r{float: right;}
+
+	#footer{width: 100%;height: 195px;}
+	.footer-up{background: #EBEBEB url(../images/jianqiao/hffdh.jpg) no-repeat center top;height: 22PX;}
+	.footer-c {width: 1004px;height: 42px;margin: 0 auto;}
+	.footer-c ul li{float: left;}
+	.footer-c ul li a{display: block;height: 42px;width: 200px;line-height: 42px;text-align: center;}
+	.footer-btm{ width:1330px ;height:121px;margin:0 auto;}
+
+	/*这里有很多需要注意的地方，给个div都个他设置而了宽和高，这里的宽高该怎么设置？‘图片’下面的那个横线， 好友那一块的布局，再看看position：absolute的跟随性是怎么弄？*/
+

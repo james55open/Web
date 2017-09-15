@@ -1,0 +1,69 @@
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+body { color:#333; padding:5px 0; font:12px/20px "SimSun","Arial Narrow",HELVETICA; background:#fff;overflow-x:hidden;}
+a { text-decoration:none; }
+
+#container{width: 1244px;margin: 0 auto;}
+	#header{}
+		.logo{ height:146px; background-color:#03357A; font-size:12px; color:#fff;}
+			.logo img{ float:left; margin-left:58px;}
+			.logo .logo_r{ float:right; height:96px; padding:25px 80px 25px 0; width:300px;}
+			.logo .logo_r p{ margin-bottom:10px;}
+			.search{ float:right; position:relative;}
+				.search input{ width:200px; height:25px; background-color:#fff; border:none; margin-right:40px;}
+				.search img{ position:absolute; right:40px; top:0;}
+		.nav{ background-color:#0395E2; height:40px;}
+			.nav ul{ margin-left:58px;}
+			.nav li{ float:left;}
+			.nav li a{ padding:0 15px; height:40px; line-height:40px; display:block; color:#fff; font-size:14px;}
+	#banner{ background:url(../images/shoudu/banner.jpg) no-repeat; height:456px;}
+
+	#mainbody{ padding:20px 70px; overflow:hidden;}
+		.mb_l{ width:724px; float:left;}
+			.mb_l .mbl_up{ overflow:hidden;}
+				.mb_l .mbl_up dt{ float:left;}
+				.mb_l .mbl_up dd{ float:left; margin-top:15px;}
+				.mb_l .mbl_up dd h1{ margin-left:25px; float:left; color:#1D4CA6;}
+				.mb_l .mbl_up span{ margin-left:15px; color:#0296E0;}
+				.mb_l .mbl_up ul{ clear:both;}
+				.mb_l .mbl_up ul li{ width:328px; height:36px; border-bottom:1px solid #ccc; padding-top:29px;}
+				.mb_l .mbl_up ul li span{ margin-right:10px; margin-left:0;}
+				.mb_l .mbl_up .mblup_l{ float:left; height:390px; width:328px;}
+				.mb_l .mbl_up .mbupl_r{ float:right; width:328px; overflow:hidden; height:390px;}
+					.mb_l .mbl_up .mbupl_r .rdl{ height:65px; border-bottom:1px solid #ccc;}
+					.mb_l .mbl_up .mbupl_r .rdt{ float:left; padding-top:20px;}
+					.mb_l .mbl_up .mbupl_r .rdd{ float:right; width:260px;}
+			.mbl_btm{ margin-top:20px;}
+				.mbl_btm ul li{ float:left; margin-right:4px;}
+				.mbl_btm ul li a{ display:block; width:177px; height:35px; text-align:center; line-height:35px; background-color:#E5E5E5; color:#1B4B8D; font-size:16px;}
+
+		.mb_r{ float:right; width:330px;}
+			.mb_r .mbr_up dt{ float:left;}
+				.mb_r .mbr_up dd{ float:left; margin-top:15px;}
+				.mb_r .mbr_up dd h1{ margin-left:25px; float:left; color:#1D4CA6;}
+				.mb_r .mbr_up span{ margin-left:15px; color:#0296E0;}
+				.mb_r .mbr_up .dp{ clear:both; padding-top:20px; padding-left:10px;}
+				.mb_r .mbr_up .dp p{ height:30px; line-height:30px;}
+			.mbr_btm img{ width:330px; height:117px;}
+
+
+	#footer{ height:105px; background-color:#022F70; margin-top:20px; color:#fff; font-size:12px;} 
+		#footer img{ float:left; margin-left:123px;}
+		.f_c{ float:left; padding:30px 30px 30px 80px; width:450px;}
+		.f_c p{ margin-bottom:5px;}
+		.f_r{ float:left; padding-left:30px; height:65px; margin-top:20px; padding-top:20px;}
+
+
+
+
+
+
+
+
+
+
+
